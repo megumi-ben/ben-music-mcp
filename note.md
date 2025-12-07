@@ -1,8 +1,10 @@
-# 提交作品
+# 本的乐mcp
+
+[github项目地址](https://github.com/megumi-ben/ben-music-mcp)
 
 ## 本地复现
 
-复现配置如下：
+本地部署(建议，全量功能)：（stdio方式）
 
 ```json
 {
@@ -12,6 +14,19 @@
       "args": [
         "ben-music-mcp@latest"
       ]
+    }
+  }
+}
+```
+
+sse方式部署：
+
+```json
+{
+  "mcpServers": {
+    "ben-ms-mcp": {
+      "type": "sse",
+      "url": "https://mcp.api-inference.modelscope.net/8945a7a083d748/sse"
     }
   }
 }
@@ -40,7 +55,9 @@ uvx ben-music-mcp@latest
 ![alt text](images/image-2.png)
 
 ### get_song_info 获取歌曲信息
+
 输入str：歌名
+
 ![alt text](images/image-3.png)
 
 ### lyric 获取歌词
