@@ -126,6 +126,10 @@ uvx ben-music-mcp@latest
 
 ![alt text](images/image-18.png)
 
+操作视频：
+
+[get_user_playlist](https://github.com/user-attachments/assets/96b04915-2b8c-4638-afb4-f7b399751861)
+
 ### get_playlist 获取歌单详情
 
 这里参数是歌单的id，所以建议配合前面的获取用户歌单来使用（返回歌单信息中包含歌单id），先获取用户歌单，agent就知道咱们的id啦，后面就不需要手动给id，自动即可获取信息。
@@ -152,6 +156,10 @@ uvx ben-music-mcp@latest
 
 有歌词和可以直接试听！！
 
+操作视频：
+
+[export_playlist_html](https://github.com/user-attachments/assets/427daecd-1ced-4f76-aeaf-05ce7a703be9)
+
 ### export_playlist_csv 歌单导出为csv(本地部署)
 
 两个参数：id（前面获取用户歌单已经获取了），保存路径（必填），路径得是【C:/Users/Ben/Desktop/test/歌单网页.csv】这种以.csv结尾的。
@@ -170,7 +178,9 @@ uvx ben-music-mcp@latest
 
 接收一个str的路径参数，按道理说可以打开任意一个exe文件。默认是【C:\CloudMusic\cloudmusic.exe】
 
-操作效果详情可以见录制视频【total.mp4】
+操作视频：
+
+[open_cloud_music](https://github.com/user-attachments/assets/b214b5db-fe51-4dc3-adbc-30ef4882b46f)
 
 ### search_and_play_mcp 搜索并且播放指定歌曲（本地部署）
 
@@ -178,15 +188,21 @@ uvx ben-music-mcp@latest
 
 ### play_and_pause_mcp 播放/暂停按钮（本地部署）
 
-操作效果详情可以见录制视频【total.mp4】
+操作视频：
+
+[play_and_pause_mcp](https://github.com/user-attachments/assets/9f959945-2f98-4003-8bdd-aa251ba187f9)
 
 ### next_song 播放下一首（本地部署）
 
-操作效果详情可以见录制视频【total.mp4】
+操作视频：
+
+[next_song & pre_song](https://github.com/user-attachments/assets/fac967eb-9f0d-4831-92ff-3e07a2e61c7a)
 
 ### pre_song 播放上一首（本地部署）
 
-操作效果详情可以见录制视频【total.mp4】
+操作视频：
+
+[next_song & pre_song](https://github.com/user-attachments/assets/fac967eb-9f0d-4831-92ff-3e07a2e61c7a)
 
 ### songs_recognize 听歌识曲（本地部署）
 
